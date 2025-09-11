@@ -1,2 +1,22 @@
 # CRT_python
 coding
+str1="THARUN"
+#Case1
+print(str1[0:1])
+print(str1[0:2])
+print(str1[0:3])
+print(str1[0:4])
+print(str1[0:5])
+print(str1[0:6])
+#Case2
+print(str1[5:6])
+#Case3
+print(str1[::1])
+#Case4
+print(str1[0:5:3])
+#Case5
+print(str1[0:11:1])
+print(str1[-1:-7:-1])
+print(str1[-2:-7:-4])
+print(str1[::-1])
+print(str1[-5:-4])
