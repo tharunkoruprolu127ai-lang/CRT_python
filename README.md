@@ -46,3 +46,30 @@ t1=(1,1,1,2,3)
 t2=(6,7,8,1,2)
 print(t1)
 print(t2)
+
+#arithmetic operators
+a=6
+b=10
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a^b)
+print(a**b)
+print(a//b)
+#equality operator
+c=5
+d=5
+print(c==d)
+print(a==b)
+#identity operators
+e='xyz'
+f='nec'
+print('x'in e)
+print('c'not in f)
+#membership operator
+g='tag'
+h='rpd'
+print(id(g),id(h))
+print(g is h)
+print(g is not h)
